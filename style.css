@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+}
+#app{
+    background-color: aqua;
+}
+#game{
+    background-color: burlywood;
+}
+#chatbot{
+background-color: firebrick;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    margin: 5px auto;
+    background-color: black;
+}
