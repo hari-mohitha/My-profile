@@ -1,22 +1,46 @@
 <html>
     <head><title>My profile</title>
     <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script> 
     </head>
     <body>
+       <div class='container'>
         <section id='app'>
             <h1>Apps</h1>
             <div class="line"></div>
             <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/Er1m3elwwJd3p8NjGg-MdID_ZQ8W-S9dtVTmJ0sgEnx/embed?nosource"></iframe>
             <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/V15Yva5MBFT9j_iw3hBed5or2oy-Eb9WOezyGMEfBNw/embed?nosource"></iframe>
         </section>
-        <section id='game'>
-            <h1>Games</h1>
-            <div class="line"></div>
-            <a href='https://studio.code.org/projects/spritelab/RcE7xWtYz1lNNhH1tk-gKBr9J_ZxdDPT-UMxqdFRLdk' target='_blank'> Boy collects coin</a>
-        <img src='collect coin.png'>
-        <a href='https://studio.code.org/projects/spritelab/_nwwQmUP60zF9jCGYnsv4_f1D-oVphxaUEMk5-Ci2fE' target='_blank'> Two player car game</a>
-        <img src='Car game two.png'>
-        </section>
+
+        <h2>click on the Games to explore</h2>
+        <h5>This games are built in game lab, click on the game to play</h5>
+<div id='myCarousel' class='carousel slide'>   <center>
+
+    <div class='carousel-inner'>      
+        <div class='item active'>
+    
+            <a href='https://studio.code.o]rg/projects/spritelab/RcE7xWtYz1lNNhH1tk-gKBr9J_ZxdDPT-UMxqdFRLdk' target='_blank'>  <img src='collect coin.png'> </a>
+       <p>Boy collects coin</p>
+        
+    </div>
+
+
+    <div class='item'>
+    <a href='https://studio.code.org/projects/spritelab/_nwwQmUP60zF9jCGYnsv4_f1D-oVphxaUEMk5-Ci2fE' target='_blank'><img src='Car game two.png'> </a>
+    <p>Two player car game</p>
+</div>
+    </div>  
+
+    <a class='left carousel-control' href='#myCarousel' data-slide='prev'>
+        <span class='glyphicon glyphicon-chevron-left'></span>
+    </a>
+    <a class='right carousel-control' href='#myCarousel' data-slide='next'>
+        <span class='glyphicon glyphicon-chevron-right'></span>
+    </a>
+    </center>
+    </div>   
         <section id='chatbot'>
             <h1>chatbot</h1>
             <div class="line"></div>
@@ -27,5 +51,6 @@
     src="https://console.dialogflow.com/api-client/demo/embedded/0baeaf74-e2ba-410b-a932-e89a4b49344a">
 </iframe>
         </section>
+    </div> 
     </body>
 </html>
